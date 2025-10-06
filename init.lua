@@ -252,7 +252,7 @@ minetest.register_chatcommand(
             "Freeze a player"
         ),
         privs = {
-            privs = true
+            teacher = true
         },
         func = function (
             name,
@@ -347,7 +347,7 @@ minetest.register_chatcommand(
             "Unfreeze a player"
         ),
         privs = {
-            privs = true
+            teacher = true
         },
         func = function (
             name,
@@ -3142,7 +3142,7 @@ minetest.register_chatcommand(
             "set the empty hand of a player to creative mode characteristics"
         ),
         privs = {
-            privs = true,
+            teacher = true,
         },
         func = function(
             own_name,
@@ -3191,7 +3191,7 @@ minetest.register_chatcommand(
             "set the empty hand of a player to survival mode characteristics"
         ),
         privs = {
-            privs = true,
+            teacher = true,
         },
         func = function(
             own_name,
